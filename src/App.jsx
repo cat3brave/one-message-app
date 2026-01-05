@@ -13,7 +13,7 @@ function App() {
   const [isRandom, setIsRandom] = useState(false);
 
   const [filterTag, setFilterTag] = useState("すべて");
-  const tag = ["すべて", "自己肯定", "励まし", "行動"];
+  const tag = ["すべて", "自己肯定", "励まし", "行動", "安心"];
 
   const tagCounts = messages.reduce(
     (acc, m) => {
@@ -42,7 +42,7 @@ function App() {
     }
 
     if (savedFilter !== null) {
-      const allowedTags = ["すべて", "自己肯定", "励まし", "行動"];
+      const allowedTags = ["すべて", "自己肯定", "励まし", "行動", "安心"];
       if (allowedTags.includes(savedFilter)) {
         setFilterTag(savedFilter);
       }

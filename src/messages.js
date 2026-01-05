@@ -27,5 +27,21 @@ const messages = [
     text: "まあいいか、で進もう",
     tag: "行動",
   },
+  {
+    text: "なからでOK!",
+    tag: "行動",
+  },
+  {
+    text: "結果オーライ!",
+    tag: "励まし",
+  },
+  {
+    text: "それはそれとして、今できることは？",
+    tag: "行動",
+  },
+  {
+    text: "Geminiがついてるから大丈夫!",
+    tag: "安心",
+  },
 ];
 export default messages;

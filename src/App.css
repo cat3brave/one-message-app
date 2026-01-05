@@ -99,6 +99,11 @@ h1 {
   color: #1b5e20;
 }
 
+.message-tag--peace {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
 .tag-filter-row {
   display: flex;
   justify-content: center;
