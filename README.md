@@ -1,16 +1,46 @@
-# React + Vite
+# 今日のひと言アプリ (One Message App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+クリックするたびに、前向きになれる「ひと言」を表示するメンタルケアアプリです。
+「自己肯定」「励まし」「行動」「安心」の 4 つのカテゴリで、ユーザーの心をサポートします。
 
-Currently, two official plugins are available:
+## 📱 デモ (Demo)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+実際のアプリはこちらから動作確認できます。
+[ここにあなたの Vercel の URL を貼ってください]
 
-## React Compiler
+## 🛠 使用技術 (Tech Stack)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend:** React, Vite
+- **Language:** JavaScript (ES6+)
+- **Style:** CSS (Responsive Design)
+- **Deploy:** Vercel (CI/CD)
 
-## Expanding the ESLint configuration
+## ✨ 機能 (Features)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **ランダム表示機能:** ボタン一つでメッセージをランダムに提案
+- **カテゴリフィルター:** 気分に合わせて「励まし」や「安心」などのタグで絞り込み
+- **レスポンシブ対応:** スマホ・PC どちらでも見やすい UI 設計
+- **ダークモード対応:** OS の設定に関わらず視認性を保つカラー設計
+- **ローカルストレージ保存:** ブラウザを閉じても、前回の表示状態を記憶
+
+## 💡 工夫した点
+
+- **パフォーマンス最適化:** `useCallback` と `useEffect` を適切に使用し、無駄な再レンダリングを防止しました。
+- **ユーザー体験:** ボタンの配置をスマホ操作時に押しやすい位置（下部）に集約しました。
+- **カスタムタグ:** 自分専用の「#安心」タグと独自のカラーリングを追加し、メンタルケアの効果を高めました。
+
+## 🚀 開発環境のセットアップ (Setup)
+
+```bash
+# リポジトリのクローン
+git clone [https://github.com/cat3brave/one-message-app.git](https://github.com/cat3brave/one-message-app.git)
+
+# ディレクトリ移動
+cd one-message-app
+
+# 依存関係のインストール
+npm install
+
+# ローカルサーバー起動
+npm run dev
+```
