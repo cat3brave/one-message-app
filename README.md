@@ -6,7 +6,7 @@
 ## 📱 デモ (Demo)
 
 実際のアプリはこちらから動作確認できます。
-[ここにあなたの Vercel の URL を貼ってください]
+https://one-message-app.vercel.app
 
 ## 🛠 使用技術 (Tech Stack)
 
